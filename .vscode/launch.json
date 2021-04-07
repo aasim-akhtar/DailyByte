@@ -5,11 +5,28 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Launch ReverseNumber",
+            "request": "launch",
+            "mainClass": "ReverseNumber",
+            "projectName": "DailyByte_60c2ff49"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestUniqueSubstring",
+            "request": "launch",
+            "mainClass": "LongestUniqueSubstring",
+            "projectName": "DailyByte_60c2ff49"
+        },
+        {
             "name": "(Windows) Launch",
             "type": "cppvsdbg",
             "request": "launch",
             "program": "C:\\MinGW\bin\\g++.exe",
-            "args": ["${fileBasename}","-o"],
+            "args": [
+                "${fileBasename}",
+                "-o"
+            ],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],

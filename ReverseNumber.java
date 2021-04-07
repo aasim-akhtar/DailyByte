@@ -13,6 +13,7 @@ public class ReverseNumber {
         System.out.println("Please input any number: ");
         num=inputObj.nextInt();
         digits=0;
+        inputObj.close();
     }
 
     private int getDigits(int num) {
