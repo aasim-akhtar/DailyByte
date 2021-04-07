@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BitwiseShift",
+            "request": "launch",
+            "mainClass": "BitwiseShift",
+            "projectName": "DailyByte_60c2ff49"
+        },
+        {
+            "type": "java",
             "name": "Launch ReverseNumber",
             "request": "launch",
             "mainClass": "ReverseNumber",
