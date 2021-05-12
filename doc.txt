@@ -2,3 +2,6 @@ rich text
 
 
 richer text with just git add and commit
+
+
+richer text with add commit and push
